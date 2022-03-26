@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width , initial-scale = 1.0" />
+    <title>example</title>
+    <link rel="stylesheet" href="main_css.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- start setting box -->
+        <div class="setting-box">
+            <div class="toggle-settings">
+                <i class="fas fa-cog fa-2x" title="change setting website"></i>
+            </div>
+            <div class="setting-container">
+                <div class="option-box">
+                    <h4>the main color </h4>
+                    <ul class="colors-list">
+                        <li class="active" data-color = "#7a7238"></li>
+                        <li  data-color = "#295977"></li>
+                        <li data-color="#e91e63"></li>
+                        <li data-color="#ff5722"></li>
+                        <li data-color="#03a9f4"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Random background</h4> 
+                    <div class="random-background">
+                        <span class="yes active" data-background="yes">Yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Show bullents</h4> 
+                    <div class="bullents-option">
+                        <span class="yes active" data-display="show">Yes</span>
+                        <span class="no" data-display="hide">No</span>
+                    </div>
+                </div>
+                <button type="reset" class="reset-option">Reset the option</button>
+            </div>
+        </div>
+        <!-- end setting box -->
+
+        <div class="nav-bullents">
+            <div class="bullents" data-section = ".about">
+                <div class="tooltip">about</div>
+            </div>
+            <div class="bullents" data-section = ".skilss">
+                <div class="tooltip">skills</div>
+            </div>
+            <div class="bullents" data-section = ".our-gallery">
+                <div class="tooltip">Gallery</div>
+            </div>
+            <div class="bullents" data-section = ".timeline">
+                <div class="tooltip">time line</div>
+            </div>
+            <div class="bullents" data-section = ".contact-us">
+                <div class="tooltip">Contact Us</div>
+            </div>
+        </div>
+        <!-- start land page -->
+        <div class="landing-page">
+            <div class="container">
+                <div class="overlay"></div>
+                <div class="header-area">
+                    <div class="logo">spaciel design</div>
+                    <ul class="links">
+                    <li class="active" data-section = ".about"><a href="#" >About</a></li>
+                    <li data-section = ".skilss"><a href="#" >skills</a></li>
+                    <li data-section = ".our-gallery"><a href="#" >Gallery</a></li>
+                    <li data-section = ".timeline"><a href="#" >time line</a></li>
+                    <li data-section = ".contact-us"><a href="#" >Contact Us</a></li>
+                    </ul>
+                    <div class="tollge">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+            </div>
+            <div class="introduction-text">
+                <h1>we are <span>creative</span> the website</h1>
+                <p>paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+            </div>
+            </div>
+        </div>
+        <!-- end land page -->
+        <div class="about">
+            <div class="container">
+                <div class="text">
+                    <h4>About Us</h4>
+                    <p>paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                </div>
+                <div class="image">
+                    <img src="foto/landing-image.png" alt=""  />
+                </div>
+            </div>
+        </div>
+        <div class="skilss">
+            <div class="container">
+                <div class="text">
+                    <h4>My Skill</h4>
+                </div>
+                <div class="skill">
+                    <div class="name-skill">HTML</div>
+                    <div class="skilll">
+                        <span data-progress = "80%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name-skill">CSS</div>
+                    <div class="skilll">
+                        <span data-progress = "40%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name-skill">JS</div>
+                    <div class="skilll">
+                        <span data-progress = "90%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="name-skill">Python</div>
+                    <div class="skilll">
+                        <span data-progress = "20%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-gallery">
+            <div class="container">
+                <div class="text">
+                    <h4>My Gallery</h4>
+                </div>
+                <div class="gallery">
+                    <img src="gallery/1.jpg" alt="down town" />
+                    <img src="gallery/2.jpg" alt="university" />
+                    <img src="gallery/3.jpg" alt="down town" />
+                    <img src="gallery/4.jpg" alt="down town" />
+                    <img src="gallery/5.jpg" alt="down town" />
+                    <img src="gallery/6.jpg" alt="down town" />
+                    <img src="gallery/7.jpg" alt="down town" />
+                    <img src="gallery/8.jpg" alt="down town" />
+                    <img src="gallery/9.jpg" alt="down town" />
+                    <img src="gallery/10.jpg" alt="down town" />
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container">
+                <div class="text">
+                    <h4>Time Line</h4>
+                </div>
+                <div class="timeline-content">
+                    <div class="year">2022</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Test heading</h3>
+                            <p>paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Test heading</h3>
+                            <p>paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2021</div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Test heading</h3>
+                            <p>paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Test heading</h3>
+                            <p>paragraph paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Test heading</h3>
+                            <p>paragraphparagraph paragraph paragraph paragraph paragraph paragraph paragraph  paragraph paragraph  paragraph paragraph paragraph</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="container">
+                <div class="text">
+                    <h4>feature</h4>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-01.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-01</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-02.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-02</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-03.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-03</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-04.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-04</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-05.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-05</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="feature/cat-06.jpg" alt="" />
+                    <div class="text">
+                        <h4>cat-06</h4>
+                        <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="testimonials">
+            <div class="container">
+                <h2>testimonials</h2>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="foto/avatar-03.png" alt="" />
+                        <h4>Suleiman suleiman</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="foto/avatar-04.png" alt="" />
+                        <h4>Khedr suleiman</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="foto/avatar-05.png" alt="" />
+                        <h4>hassan suleiman</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="contact-us">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text" name="username" placeholder="your name" />
+                        <input type="email" name="Gmail" placeholder="your email" />
+                        <input type="password" name="passwordGmail" placeholder="password" />
+                        <input type="text" name="number" placeholder="your number" />
+                    </div>
+                    <div class="right">
+                        <textarea name="massage" placeholder="write massege"></textarea>
+                        <input type="submit" value="send" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="the_main_js.js"></script>
+    </body>
+</html>
